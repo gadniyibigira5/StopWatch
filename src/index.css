@@ -1,0 +1,100 @@
+body{
+  background: linear-gradient(to left, hsla(53, 100%, 50%,50%), rgba(8, 8, 8, 0.856));
+  display: flex;
+  flex-direction: column;
+  align-items: centber;
+
+}
+.stop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid ;
+  border-radius: 50px;
+  background-color: aliceblue;
+  padding: 30px;
+  background-image: url("./assets/bkg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.time{
+  font-family: 'DSEG7', monospace ;
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(215, 250, 241);
+  background-color: rgba(240, 248, 255, 0.178);
+  backdrop-filter: blur(1px);
+  border-radius: 50px;
+  text-shadow: 2px 2px 2px black;
+}
+.time:hover{
+  background-color: rgba(240, 248, 255, 0);
+  backdrop-filter: blur(0px);
+  transition: 1s ;
+}
+.bkimg{
+  width: 10cm;
+  height: auto;
+}
+.bts{
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+}
+h2{
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 2.5rem;
+}
+.startbt{
+  background-color: green;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50%;
+  height: 1.5cm;
+  width: 1.5cm;
+  font-weight: bold;
+  color: aliceblue;
+  flex-shrink: 0;
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
+.resbt{
+   background-color: orange;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50%;
+  height: 1.5cm;
+  width: 1.5cm;
+  font-weight: bold;
+  color: aliceblue;
+  flex-shrink: 0;
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+  
+}
+.stpbt{
+   background-color: red;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50%;
+  height: 1.5cm;
+  width: 1.5cm;
+  font-weight: bold;
+  color: aliceblue;
+  flex-shrink: 0;
+  transition: transform 0.25s ease, background-color 0.25s ease, color 0.25s ease;
+}
+.startbt:hover{
+  background-color: rgb(174, 255, 127);
+  color:black;
+  transform: scale(1.13);
+}
+.resbt:hover{
+  background-color: rgb(255, 223, 127);
+  color:black;
+  transform: scale(1.13);
+  
+}
+.stpbt:hover{
+  background-color: rgb(255, 159, 127);
+  color:black;
+  transform: scale(1.13);
+}
